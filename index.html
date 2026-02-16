@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael Ribas - Economist & Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Theme Toggle Button (apenas um) -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+        <i class="fas fa-sun"></i>
+    </button>
+
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <a href="#home">Rafael Ribas</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hello, I'm <span class="highlight">Rafael</span>!</h1>
+                <p class="subtitle">Economist | Accountant | Python Dev | Automation | Data | Cryptocurrencies</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm an economist and accountant by training, but my true passion lies at the intersection of economics, finance, and technology. A few years ago I dove into the world of programming and automation, and today I combine my analytical background with software development to create practical solutions.</p>
+                    <p>I work with <strong>Python, process automation, web scraping, and data analysis</strong>. I'm also a Bitcoin and  cryptocurrency enthusiast, always exploring how technology can transform the financial system.</p>
+                    <p>I believe in clean code, efficient solutions, and sharing knowledge through open source projects.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">years coding</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">projects</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">Python</span>
+                        <span class="stat-label">main language</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <p>Automation, Scraping, APIs</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Databases</h3>
+                    <p>SQL, PostgreSQL</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>Automation</h3>
+                    <p>Scrapy, Selenium, PyAutoGUI</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Data</h3>
+                    <p>ETL, Pandas, Analysis</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Scraping</h3>
+                    <p>Structured data extraction</p>
+                </div>
+				<div class="skill-card">
+                    <i class="fas fa-chart-pie"></i>
+                    <h3>Data Analysis</h3>
+                    <p>Matplot, ETL, Report Generation</p>
+                </div>
+				<div class="skill-card">
+                    <i class="fas fa-thumbs-up"></i>
+                    <h3>Graphic Interface</h3>
+                    <p>PyQt6, Qt Designer, UI</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-bitcoin"></i>
+                    <h3>Bitcoin</h3>
+                    <p>Enthusiast & Researcher</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Crypto Research ETL</h3>
+                    <p>End-to-end crypto market research pipeline with ETL, risk analytics, correlation modeling and automated HTML/PDF reporting.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>ETL</span>
+                        <span>Scraping</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/rafael-ribas/crypto-research-etl" target="_blank"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Personal Data Detector</h3>
+                    <p>Project developed for the Hackathon in Social Control (CGDF) that identifies personal data in administrative texts.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>LGPD</span>
+                        <span>OSINT</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/rafael-ribas/detector-dados-pessoais" target="_blank"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Timelapse Webcam</h3>
+                    <p>Desktop application in Python for creating timelapse videos from webcams.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>OpenCV</span>
+                        <span>Automation</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/rafael-ribas/timelapse-webcam" target="_blank"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="view-more">
+                <a href="https://github.com/rafael-ribas?tab=repositories" target="_blank" class="btn btn-outline">See all on GitHub <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato - versão sem formulário -->
+	<section id="contact" class="contact">
+		<div class="container">
+			<h2>Contact</h2>
+			<div class="contact-content" style="grid-template-columns: 1fr; max-width: 600px; margin: 0 auto;">
+				<div class="contact-info" style="text-align: center;">
+					<p style="font-size: 1.2rem; margin-bottom: 2rem;">Let's talk? I'm open to collaborations, opportunities, or just to exchange ideas about technology, data, and automation.</p>
+					
+					<div style="display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap;">
+						<!-- GitHub -->
+						<a href="https://github.com/rafael-ribas" target="_blank" style="text-decoration: none; color: inherit;">
+							<i class="fab fa-github" style="font-size: 3rem; color: var(--primary-color);"></i>
+							<p style="margin-top: 0.5rem;">GitHub</p>
+						</a>
+						
+						<!-- LinkedIn -->
+						<a href="https://www.linkedin.com/in/rrferreira/" target="_blank" style="text-decoration: none; color: inherit;">
+							<i class="fab fa-linkedin" style="font-size: 3rem; color: var(--primary-color);"></i>
+							<p style="margin-top: 0.5rem;">LinkedIn</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Rafael Ribas. Made with <i class="fas fa-heart"></i> - Open Source.</p>
+            <div class="social-links">
+                <a href="https://github.com/rafael-ribas" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rrferreira/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Theme Toggle Script -->
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+        const icon = themeToggle.querySelector('i');
+
+        function setTheme(isLight) {
+            if (isLight) {
+                body.classList.add('light-theme');
+                icon.classList.remove('fa-sun');
+                icon.classList.add('fa-moon');
+            } else {
+                body.classList.remove('light-theme');
+                icon.classList.remove('fa-moon');
+                icon.classList.add('fa-sun');
+            }
+        }
+
+        function toggleTheme() {
+            const isLight = body.classList.contains('light-theme');
+            setTheme(!isLight);
+        }
+
+        themeToggle.addEventListener('click', toggleTheme);
+
+        // Verifica preferência do sistema
+        const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+        setTheme(prefersLight);
+    </script>
+</body>
+</html>
